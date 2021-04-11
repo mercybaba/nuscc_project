@@ -1,108 +1,66 @@
-## [Material Kit - React](https://material-kit-react.devias.io/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=%F0%9F%9A%A8Devias%20Freebie%20Alert%20-%20An%20awesome%20ready-to-use%20register%20page%20made%20with%20%23material%20%23react%0D%0Ahttps%3A%2F%2Fdevias.io%20%23createreactapp%20%23devias%20%23material%20%23freebie%20%40devias-io)
+## [CS5224 - Cloud Computing Group Project](https://yana.sora.so/)
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+This repository provides codes for Group 24 Final Project.
 
-[![Material Kit - React](https://s3.eu-west-2.amazonaws.com/devias/products/react-material-dashboard/react-material-free-xl.jpg)](https://react-material-dashboard.devias.io/)
+## YANA - You Are Not Alone     
 
-> Free React Admin Dashboard made with [Material UI's](https://material-ui.com/?ref=devias-io) components, [React](https://reactjs.org/?ref=devias-io) and of course [create-react-app](https://facebook.github.io/create-react-app/?ref=devias-io) to boost your app development process! We'll launch a pro version soon, so if you are interested subscribe to our personal emailing list on [https://devias.io/](https://devias.io/)
+## Executive Summary
 
-## Upgrade to PRO Version
+Recently, online activities have become popular, as the COVID-19 pandemic made it impossible for people to get together or make new friends in person. Therefore, the main ways people communicate and engage with others are likely to be changed under this special circumstance. Voice chat, among them, has started to gain momentum and is becoming one of the most popular communication methods. 
 
-We also have a pro version of this product which bundles even more pages and components if you want to save more time and design efforts :)
+Thus, in this project, we propose to develop this cloud-based SaaS YANA (abbreviated for “You Are Not Alone”) to offer a platform for users to find like-minded people through live voice chats. This service will feature various virtual chatting “rooms” with conversations on diverse topics. Users can create, search for and join in rooms with the help of topic tags. Upon entering an interested room, user can participate in the respective digital activity, ranging from a podcast by someone famous to a discussion within a large group. In this case, people can easily find their potential roommates, playmates, lunchmates or even soulmates here in YANA.
 
+## Business Case Identification
 
-| Free Version (this one)              | [Material Kit Pro - React](https://material-ui.com/store/items/devias-kit-pro/) |
-| ------------------------ | :----------------------------------------------------------- |
-| **7** Demo Pages         | **32** demo pages
-| -                        | ✔ Dark & light mode
-| -                        | ✔ Authentication with *Amplify**, **Auth0** and **Firebase**  
-| -                        | ✔ TypeScript version                                                                                   
-| -                        | ✔ Design files (sketch & figma) - for extended license       
-| -                        | ✔ Complete users flows                                       
+Problem Statement 1: A student who is taking an online course comes up with a nice topic and would like to invite some classmates to build a team and work on it together as the course group project. However, sending teammates finding posts on personal social media or in course group chat and then messaging one by one for further details can take much time and effort. 
+Proposed Solution: YANA can propose a well solution for this case. The student only needs to create a chat room and tags it with the course code and the topic name so that other students interested in the project can find and join the room. Also, the students can further add tags showing his preferred skill or time availability of his target teammates, so as to let others search for or filter out information more efficiently. After creating the chat room and waiting for new-joint members to meet the group size, the student can describe his detailed idea and receive feedback immediately from others. As YANA is a live voice chat service, long dialogues among a group of people can proceed smoothly with no wait time and no effort is wasted for typing or reading.
 
-## Demo
+Problem Statement 2: A person has just finished a novel or a manga and cannot wait to share his review or discuss the contents with peers. He has no idea which friend to turn to and also no patience to wait for others to comment on his published review on the book rating website. 
+Proposed Solution: YANA can be a good choice for this scenario. The person just takes the action of searching on YANA for the book name. Rooms full of peers in the same situation can be found, where people are free to share feelings and views over a common topic. 
 
-- [Dashboard Page](https://material-kit-react.devias.io/app/dashboard)
-- [Users Page](https://material-kit-react.devias.io/app/customers)
-- [Products Page](https://material-kit-react.devias.io/app/products)
-- [Register Page](https://material-kit-react.devias.io/register)
-- [Login Page](https://material-kit-react.devias.io/login)
-- [Account Page](https://material-kit-react.devias.io/app/account)
-- [Settings Page](https://material-kit-react.devias.io/app/settings)
+Thus, YANA aims to offer a platform to efficiently find like-minded people through live voice chats. The target client users are listed as follows:
+1. People who cannot get together in person with acquaintances.
+2. People who are too shy to make friends in physical life.
+3. People who are keen to find potential roommates, playmates, lunchmates or even soulmates.
+4. People with less knowledge of electronic devices or keyboards.
+5. People who prefer fast pace information exchange.
 
+## Business Model
 
-## Quick start
+Like most of the social networking applications, YANA is free to use. Everyone on the Internet who has registered an account in YANA can connect to our network freely. All the users will be able to use our free-tier services. For example, they can create rooms and have a text or voice chat with their friends or join in other hosts’ live casting. However, for the free-tier users, the services that they can use are limited. If the users would like to enjoy more privileged services in YANA, they can opt for the paid service or in-app purchases. We have offered below several different types of paid services to the individual users:
+1. The users can choose to become a VIP user in YANA and there will be a monthly subscription fee for this service. 
+2. The users can purchase virtual gifts and tip the room hosts in YANA. 
+3. There are some paid rooms which are hosted for dedicated purposes such as online tutoring, career advising, etc. 
+4. YANA also offers boosting services to all the hosts.
 
-- [Download from Github](https://github.com/devias-io/material-kit-react/archive/master.zip) or [Download from Devias](https://devias.io/products/material-kit-react) or clone the repo: `git clone https://github.com/devias-io/material-kit-react.git`
+Besides gaining revenues from individual customers, we are also targeting at business customers:
+1. YANA will offer advertising spaces (on home page) for different types of companies to rent.
+2. YANA will collaborate with advertising firms to do target advertising.
+3. The companies can also start their own room to do live casting and attract different customers to purchase their products.
 
-- Make sure your NodeJS and npm versions are up to date for `React 17`
+## Implementation
 
-- Install dependencies: `npm install` or `yarn`
+![Architecture](https://user-images.githubusercontent.com/62169579/114295612-e32e2e00-9ad8-11eb-9da3-e01299334f2e.jpg)
 
-- Start the server: `npm run start` or `yarn start`
+YANA Front-End:
 
-- Views are on: `localhost:3000`
+React.js is used to develop the front-end web UI. AWS Amplify is used as Saas service assisting users to build mobile or web applications, it is used to deploy the front-end web UI. Amazon Route 53 which is a scalable and highly available Domain Name Service, we can create a domain for the AWS amplify webApp
+Amazon EC2, EC2 Auto Scaling and Elastic Load Balancing are used to set-up our front-end server to host our web interface. Then we use our personal domain and set the DNS to be our front-end server IP address.
 
-## 🖌 Design Files
+YANA Back-End:
 
-👉[Download Sketch file](https://s3.eu-west-2.amazonaws.com/devias/products/react-material-dashboard/react-material-dashboard-free.sketch)
+React.js is used to develop the front-end web UI. AWS Amplify is used as Saas service assisting users to build mobile or web applications, it is used to deploy the front-end web UI. Amazon Route 53 which is a scalable and highly available Domain Name Service, we can create a domain for the AWS amplify webApp
+Amazon EC2, EC2 Auto Scaling and Elastic Load Balancing are used to set-up our front-end server to host our web interface. Then we use our personal domain and set the DNS to be our front-end server IP address.
 
-👉[Download Figma file](https://devias.s3.eu-west-2.amazonaws.com/products/react-material-dashboard/react-material-dashboard-free.fig)
+## Economic Factors
 
-## File Structure
+It’s very cost-saving to host YANA on the cloud especially for start-up companies who don't have too much initial capital. It requires no upfront costs, instead we will only make regular payments which makes it an operating expense. It is more affordable when compared with on-premise IT infrastructure, we can save a lot of money in terms of procurement costs, maintenance costs, security costs, storage cost and scalability costs. What’s more, we can easily predict the cost for hosting YANA such as software licenses, supports and daily backups in order to achieve more economic benefits. We took several influencing factors into consideration, such as overhead in design and development, opportunities to reduce expenses and market competition and regulatory requirements. For hosting YANA, we will require both on-demand and reserved instances. Reserved instance is pay by the year which is used to meet the minimum requirement for the steady state workloads. And the on-demand instances will be served as spiky workloads and it will be paid by the seconds.
 
-Within the download you'll find the following directories and files:
+While defining the pricing models for YANA, we used several models for different services offered in YANA. For example, we are using the tiered pricing model. Everyone on the internet is free to use our services, so their account will be in the free tier. We offered VIP services to the users who have subscribed to our VIP tier plan. We also offered an enterprise tier plan to those enterprise users who would like to do advertising on YANA. Besides the tiered pricing model, we also introduced the usage based pricing model. For example, the users can purchase the virtual gifts and tip to the hosts. They will only pay what they would like to purchase. We will also offer some free gifts to the users who are active on YANA network as a reward for being loyal to the platform.
 
-```
-material-react-dashboard
+## About us
 
-├── .eslintrc
-├── .gitignore
-├── .prettierrc
-├── CHANGELOG.md
-├── jsconfig.json
-├── LICENSE.md
-├── package.json
-├── README.md
-├── public
-├── docs
-└── src
-	├── assets
-	├── common
-	├── components
-	├── helpers
-	├── icons
-	├── layouts
-	├── theme
-	├── views
-	│	├── Account
-	│	├── Dashboard
-	│	├── Icons
-	│	├── NotFound
-	│	├── ProductList
-	│	├── Settings
-	│	├── SignIn
-	│	├── SignUp
-	│	├── Typography
-	│	└── UserList
-	├── App.jsx
-	├── index.jsx
-	└── Routes.jsx
-```
-
-## Resources
-
-- More freebies like this one: <https://devias.io>
-
-## Reporting Issues:
-
-- [Github Issues Page](https://github.com/devias-io/react-material-dashboard/issues?ref=devias-io)
-
-## License
-
-- Licensed under MIT (https://github.com/devias-io/react-material-dashboard/blob/master/LICENSE.md)
-
-## Contact Us
-
-- Email Us: support@deviasio.zendesk.com
-- [Follow us on Instagram](https://www.instagram.com/deviasio/)
+- Yang Bowen (A0228604H)
+- Li Huimin (A0224834E)
+- Shen Siyuan (A0112489B)
+- Xiao Yikai (A0212237R)
